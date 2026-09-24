@@ -1,0 +1,14 @@
+{
+  "name": "nm-boa",
+  "short_name": "nm_boa",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "boa Native Messaging host",
+  "permissions": ["nativeMessaging"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {},
+  "homepage_url": "https://github.com/guest271314/native-messaging-boa"
+}
