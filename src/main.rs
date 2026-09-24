@@ -1,5 +1,5 @@
 /// boa JavaScript engine https://github.com/boa-dev/boa
-/// Native Messaging host (index.js)
+/// Native Messaging host (nm_boa.js)
 /// Globals defined for I/O in ECMAScript: std.read(), std.write(), std.err()
 /// guest271314 9-23-2026
 
