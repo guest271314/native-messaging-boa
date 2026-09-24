@@ -1,0 +1,16 @@
+[package]
+name = "nm_boa"
+version = "0.1.0"
+edition = "2024"
+description = "boa Native Messaging host"
+authors = [ "guest271314" ]
+
+[dependencies]
+boa_engine = { version = "0.19.1", default-features = false }
+
+[profile.release]
+opt-level = "z"     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = true        # Automatically strip symbols from the binary.
