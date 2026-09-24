@@ -1,0 +1,9 @@
+{
+  "name": "nm_boa",
+  "description": "boa Native Messaging Host",
+  "path": "/ABSOLUTE/PATH/TO/native-messaging-boa/nm_boa",
+  "type": "stdio",
+  "allowed_origins": [
+    ""
+  ]
+}
